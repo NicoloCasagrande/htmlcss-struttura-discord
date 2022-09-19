@@ -37,12 +37,30 @@
 
  .debug .col-big{
     background-color: #1e90ff;
+    height: 500px;
  }
 
  .debug .col-small{
     background-color: #ffc0cb;
+    height: 500px;
  }
 
+ .debug .last-page{
+    background-color: #228b22;
+    height: 800px;
+ }
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .f-col-big{
+    background-color: #f08080;
+}
+
+.debug .f-col-small{
+    background-color: #20b2aa;
+}
 
  /*-----------------------
  COMMON
@@ -89,18 +107,48 @@
 
  .col-big{
     width: 60%;
-    height: 500px;
  }
 
  .col-small{
     width: 40%;
-    height: 500px;
  }
 
  section:nth-child(2n){
     background-color: #d3d3d3;
  }
 
+ .last-page{
+    width: 100%;
+ }
+
  /*-----------------------
  FOOTER
  ----------------------*/
+
+ footer{
+    padding-top: 3px;
+ }
+
+ .footer-top{
+    display: flex;
+    height: 1000px;
+    padding: 5px 0 25px 0;
+ }
+
+ .f-col-big{
+    width: calc(100%/3);
+ }
+ .f-col-small{
+    width: calc(100%/6);
+ }
+
+ .sezione-finale{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+ }
+
+ .separatore{
+    border-top: 1px solid grey;
+    margin-bottom: 20px;
+ }
