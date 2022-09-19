@@ -21,7 +21,8 @@
     background-color: #daa520;
     padding: 5px;
     margin-bottom: 16px;
-    height: 50px
+    height: 50px;
+    border: 2px dashed;
  }
 
  .debug .header-bottom{
@@ -33,21 +34,25 @@
     background-color: #ee82ee;
     height: 400px;
     width: 900px;
+    border: 2px dashed;
  }
 
  .debug .col-big{
     background-color: #1e90ff;
     height: 500px;
+    border: 2px dashed;
  }
 
  .debug .col-small{
     background-color: #ffc0cb;
     height: 500px;
+    border: 2px dashed;
  }
 
  .debug .last-page{
     background-color: #228b22;
     height: 800px;
+    border: 2px dashed;
  }
 
 .debug footer{
@@ -56,10 +61,12 @@
 
 .debug .f-col-big{
     background-color: #f08080;
+    border: 2px dashed;
 }
 
 .debug .f-col-small{
     background-color: #20b2aa;
+    border: 2px dashed;
 }
 
  /*-----------------------
