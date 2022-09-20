@@ -32,9 +32,6 @@
 
  .debug .slogan{
     background-color: #ee82ee;
-    height: 400px;
-    width: 900px;
-    border: 2px dashed;
  }
 
  .debug .col-big{
@@ -66,7 +63,12 @@
 
 .debug .f-col-small{
     background-color: #20b2aa;
-    border: 2px dashed;
+    border: 2px dashed white;
+}
+
+.debug .sezione-finale{
+   background-color: aquamarine;
+   height: 50px;
 }
 
  /*-----------------------
@@ -76,6 +78,12 @@
 .container{
     max-width: 1200px;
     margin: auto;
+}
+
+.slogan{
+   height: 400px;
+   width: 900px;
+   border: 2px dashed;
 }
 
  /*-----------------------
@@ -88,14 +96,41 @@
 
  .header-top{
     display:flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
  }
 
  .header-bottom{
     display:flex;
     justify-content: center;
     align-items: center;
+ }
+
+ .logo, .login{
+   width: 20%;
+ }
+
+ .login{
+   text-align: right;
+ }
+
+ .main-nav{
+   width: 60%;
+ }
+
+ .main-nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+ }
+
+ .main-nav ul li{
+   margin: 0 10px;
+ }
+
+ .main-nav ul li a{
+   text-decoration: none;
+   color: inherit;
  }
 
  /*-----------------------
@@ -136,10 +171,14 @@
     padding-top: 3px;
  }
 
+ #footer-section{
+   padding: 50px 0 0 0;
+ }
+
  .footer-top{
     display: flex;
-    height: 1000px;
-    padding: 5px 0 25px 0;
+    height: 800px;
+    padding: 5px 0 65px 0;
  }
 
  .f-col-big{
